@@ -1,0 +1,356 @@
+.page1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 6.5%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.imgg1 {
+    background-image: url("/img1.png");
+    width: 140px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 61.5%;
+    margin-top: 5%;
+    z-index: 2;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.imgg2 {
+    opacity: 0;
+    background-image: url("/img1.2.png");
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 50%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+
+.imgg3 {
+    opacity: 0;
+    background-image: url("/img1.3.png");
+    width: 80px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 62%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.imgg4 {
+    opacity: 0;
+    background-image: url("/img1.4.png");
+    width: 90px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 71.5%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 2.5s;
+}
+
+.imgg5 {
+    opacity: 0;
+    background-image: url("/img1.5.png");
+    width: 95px;
+    height: 95px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 50%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.imgg6 {
+    opacity: 0;
+    background-image: url("/img1.6.1.png");
+    width: 120px;
+    height: 110px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 74%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 3.5s;
+}
+
+.platform {
+    opacity: 0;
+    background-image: url("/platform3.png");
+    width: 250px;
+    height: 145px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 10%;
+    z-index: 1;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 0s;
+}
+
+.bg{
+    background-image: url("/bg.png");
+    width: 100vw;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -420px;
+}
+
+
+
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 5rem;
+}
+.info img{
+    width: 150px;
+}
+
+.info button{
+    background-color: #00fdec;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 0;
+}
+.infoh1{
+    font-size: 50px;
+    width: 550px;
+    font-weight: 700;
+}
+.p1{
+    width: 550px;
+}
+.info1{
+    margin-top: 8vh;
+}
+.info1h1{
+    margin-top: 80px;
+    margin-left: 38%;
+    width: 380px;
+    text-align: center;
+}
+.info1 p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.img1 {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img1-1{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img1 img,.img1-1 img{
+    width: 100px;
+}
+.img1 h2,.img1-1 h2{
+    font-size: 2rem;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.img1 p,.img1-1 p{
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 0;
+}
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 5rem;
+}
+.info2 img{
+    width: 450px;
+}
+.info2 h1{
+    width: 400px;
+}
+.img2-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img2-1 img{
+    width: 250px;
+}
+.info3{
+    align-items: flex-end;
+    min-height: 520px;
+    max-height: 600px;
+    margin-top: -70px;
+    margin-left: 80px;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-between;
+}
+.info3-1{
+    max-width: 480px;
+}
+.info3-1 h1{
+    width: 500px;
+}
+.info3-1 button{
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #5765F6;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img3-1 img{
+    max-height: 800px;
+    width: 1200px;
+    margin-left: 200px;
+}
+/* Add animations for the info section */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+    }
+}
+
+/* Apply animations */
+.page1 {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.info {
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.info img {
+    animation: slideInRight 1.5s ease-in-out;
+}
+
+.img1 div, .img1-1 div {
+    animation: bounce 2s infinite;
+}
+
+.info button {
+    animation: glow 2s infinite;
+}
+
+/* Smooth scroll-like effect for info3 */
+.info3 {
+    animation: fadeIn 2s ease-in-out;
+}
+.img2 , .img4-2{
+    animation: leftimg 1s ease-in;
+    animation-timeline: view();
+    animation-range: entry 10%;
+}
+@keyframes leftimg {
+    0%{transform: translateX(-500px);  opacity: 0.5;};
+    100%{transform: translateX(0); opacity: 1;};
+}
+.img3-1{
+    animation: rightimg 1s ease-in;
+    animation-timeline: view();
+    animation-range: entry 10%;  
+}
+@keyframes rightimg {
+    0%{transform: translateX(500px);  opacity: 0.5;};
+    100%{transform: translateX(0); opacity: 1;};
+}

@@ -1,8 +1,49 @@
-# React + Vite
+Progcap Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based clone of the Progcap platform.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive UI using React and Tailwind CSS
+
+State management with React Hooks
+
+API integration for fetching dynamic data
+
+Secure authentication with JWT
+
+Technologies Used
+
+React
+
+Tailwind CSS
+
+React Router
+
+Axios
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/progcap-clone.git
+
+Navigate to the project folder:
+
+cd progcap-clone
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Usage
+
+Register/Login to access features.
+
+Browse available financial services.
+
+Perform transactions securely.

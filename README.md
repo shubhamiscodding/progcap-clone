@@ -1,18 +1,14 @@
-Progcap Clone
+### Progcap Clone
 
 A React-based clone of the Progcap platform.
 
-Features
+## Features
 
 Responsive UI using React and Tailwind CSS
 
 State management with React Hooks
 
-API integration for fetching dynamic data
-
-Secure authentication with JWT
-
-Technologies Used
+# Technologies Used
 
 React
 
@@ -21,9 +17,9 @@ React Router
 Installation
 
 Clone the repository:
-
+``
 git clone (https://github.com/shubhamiscodding/progcap-clone.git)
-
+``
 Navigate to the project folder:
 
 cd progcap-clone

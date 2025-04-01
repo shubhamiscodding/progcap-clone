@@ -16,17 +16,13 @@ Technologies Used
 
 React
 
-Tailwind CSS
-
 React Router
-
-Axios
 
 Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/progcap-clone.git
+git clone (https://github.com/shubhamiscodding/progcap-clone.git)
 
 Navigate to the project folder:
 
@@ -39,11 +35,3 @@ npm install
 Start the development server:
 
 npm run dev
-
-Usage
-
-Register/Login to access features.
-
-Browse available financial services.
-
-Perform transactions securely.
